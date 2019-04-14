@@ -39,6 +39,8 @@ I will do this 10 times each and average the results. The 100MB download will co
 | WebClient           | 0.17871964s | 1.93642482s | 8.65252152s   |
 | Start-BitsTransfer  | 0.99309196s | 1.93479778s | 10.27461431s  |
 
+I didn't end up using two different 100MB links because the other one I picked out didn't work.
+        
 After getting these results, I did the same test exclusively for Invoke-WebRequest along with the optimization suggestion from the comments of the above posted article.
 
 |           Method             |     1MB     |     10MB    |     100MB    |
